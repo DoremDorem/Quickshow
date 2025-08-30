@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { dummyBookingData } from '../assets/assets'
-import Loading from '../components/loading'
+import Loading from '../components/Loading';
 import BlurCircle from '../components/BlurCircle'
 import timeFormate from '../lib/timeFormat'
 import { dateFormat } from '../lib/dateFormate'

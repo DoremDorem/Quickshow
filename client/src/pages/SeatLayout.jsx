@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { assets, dummyDateTimeData, dummyShowsData } from '../assets/assets'
-import Loading from '../components/loading'
+import Loading from '../components/Loading'
 import { ArrowRight, ClockIcon } from 'lucide-react'
 import isoTimeFormate from '../lib/isoTimeFormate'
 import BlurCircle from '../components/BlurCircle'
